@@ -1,0 +1,32 @@
+{
+  "name": "altcaps",
+  "version": "0.0.1",
+  "description": "Alternating caps, like a myspace teenager from 2001.",
+  "main": "index.js",
+  "dependencies": {
+    "concat-stream": "~1.4.1"
+  },
+  "bin": {
+    "altcaps": "./index.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brianloveswords/altcaps.git"
+  },
+  "keywords": [
+    "alt",
+    "caps",
+    "alternating",
+    "capitals"
+  ],
+  "author": "Brian J Brennan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brianloveswords/altcaps/issues"
+  },
+  "homepage": "https://github.com/brianloveswords/altcaps"
+}
