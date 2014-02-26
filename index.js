@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 module.exports = altcaps
 function altcaps(words) {
   const letters = words.toString('utf8')
