@@ -1,5 +1,9 @@
-# Just `echo 'lol whatever' | altcaps | pbcopy`
+# Just `npm install -g altcaps`
 
-## or `altcaps < your-stupid-file.txt | pbcopy`
+## then `echo 'lol whatever' | altcaps | pbcopy`
 
-### it's the internet
+### or `altcaps < your-stupid-file.txt | pbcopy`
+
+#### the internet
+
+##### it's that simple.
