@@ -1,6 +1,6 @@
 {
   "name": "altcaps",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Alternating caps, like a myspace teenager from 2001.",
   "main": "index.js",
   "dependencies": {
