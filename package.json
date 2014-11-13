@@ -4,7 +4,8 @@
   "description": "Alternating caps, like a myspace teenager from 2001.",
   "main": "index.js",
   "dependencies": {
-    "concat-stream": "~1.4.1"
+    "concat-stream": "~1.4.1",
+    "swapcase": "~0.2.0"
   },
   "bin": {
     "altcaps": "./index.js"

@@ -1,8 +1,9 @@
 #!/usr/bin/env node
+const swapcase = require('swapcase')
+
 module.exports = altcaps
 function altcaps(words) {
   const letters = words.toString('utf8')
-  const methods = ['Upper', 'Lower']
   var idx = 0
   var midx = (Math.random() * 100)|0
   var newstring = ''
@@ -11,7 +12,7 @@ function altcaps(words) {
     letter = letters[idx]
     newstring += (letter.match(/\s/))
       ? letter
-      : letter['to' + methods[midx++ % 2] + 'Case']()
+      : (midx++ % 2 ? swapcase(letter) : letter)
   }
   return newstring
 }
